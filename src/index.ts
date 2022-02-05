@@ -5,8 +5,8 @@ import JsonTodoCollection from "./JsonTodoCollection"
 import TodoItem from "./TodoItem"
 
 const todos: TodoItem[] = [
-  new TodoItem(1, "Reading a book."),
-  new TodoItem(2, "Resolve 10 Codewars tasks.", true),
+  new TodoItem(1, "Read a book."),
+  new TodoItem(2, "Complete 10 Codewars tasks.", true),
   new TodoItem(3, "Go for run.", true),
   new TodoItem(4, "Have a shower."),
 ]
