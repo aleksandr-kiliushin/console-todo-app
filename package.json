@@ -1,0 +1,23 @@
+{
+  "name": "console-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "launch": "node ./dist",
+    "start": "tsc && node ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "8.2.0",
+    "lowdb": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "8.2.0",
+    "@types/lowdb": "1.0.11",
+    "typescript": "4.5.5"
+  }
+}
